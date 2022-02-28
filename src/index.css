@@ -5,9 +5,226 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/Image1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.admins{
+   margin-right: 60px;
+}
+.admins button{
+  margin-right: 24px;
+  color: wheat;
+  font-size: 14px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+}
+.admins .supAd{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Poppins';
+  background: orange;
+  border: none;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+}
+.admins .adMo{
+  font-size: 20px;
+  font-family: 'Poppins';
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+  background: orangered;
+  border: none;
+}
+.navbarAdmin{
+  background: #20A24C;
+}
+.name{
+  margin-left: 100px;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bolder;
+  color: wheat;
+  text-decoration: none;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+}
+.formule{
+  width: 350px;
+  margin-left: 380px;
+  margin-top: 45px;
+  background: orange;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 4px 2px 4px 7px rgba(0, 0, 0, 0.383);
+  margin-bottom: 20px;
+}
+.formule .connect{
+  font-size: 25px;
+  text-align: center;
+  color: wheat;
+  font-weight: bold;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+}
+.formule label{
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: wheat;
+  font-weight: bolder;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+}
+.formule button{
+  color: wheat;
+  font-size: 14px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  font-weight: bolder;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+}
+
+.blogs{
+  position: absolute;
+  top: 80%;
+  left: 18%;
+}
+.blogs .blog1{
+  width: 250px;
+  background: orange;
+  padding: 50px 55px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+  margin-right: 20px;
+}
+.blogs .blog1 a{
+  text-decoration: none;
+  color: wheat;
+  font-size: 18px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  text-align: justify;
+  cursor: pointer;
+}
+
+.blogs .blog2{
+  width: 250px;
+  background: orangered;
+  padding: 50px 55px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+  margin-right: 20px;
+}
+.blogs .blog2 a{
+  text-decoration: none;
+  color: wheat;
+  font-size: 18px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  text-align: justify;
+  cursor: pointer;
+}
+
+.blogs .blog3{
+  width: 250px;
+  background: #20A24C;
+  padding: 50px 55px;
+  border-radius: 15px;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.623);
+  margin-right: 20px;
+}
+.blogs .blog3 a{
+  text-decoration: none;
+  color: wheat;
+  font-size: 18px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  text-align: justify;
+  cursor: pointer;
+}
+.titre_app{
+  text-align: center;
+  margin-top: 150px;
+  color: orangered;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+}
+  .statistique{
+    background: #20a24b96;
+    position: relative;
+    padding-bottom: 200px;
+  }
+
+.dash{
+  position: relative;
+  top: 103px;
+}
+.dash a{
+  color: wheat;
+  text-decoration: none;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  font-size: 28px;
+  margin-left: 45px;
+}
+.statis{
+  display: flex;
+  position: relative;
+  top: 103px;
+  left: 28px;
+}
+.statis p{
+  text-align: center;
+}
+.statis .nbr_pro{
+  background: crimson;
+  padding: 10px 15px;
+  height: 150px;
+  border-radius: 10px;
+  width: 780px;
+}
+.statis .nbr_pro p{
+  color: wheat;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  font-size: 18px;
+}
+.statis .nbr_pro p span{
+  color: wheat;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+.statis .prod_vend{
+  background: turquoise;
+  padding: 10px 15px;
+  height: 140px;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px 23px;
+}
+.statis .prod_vend p{
+  color: wheat;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  font-size: 18px;
+}
+.statis .prod_vend p span{
+  color: wheat;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+.statis .dep{
+  background: yellowgreen;
+  padding: 10px 15px;
+  height: 140px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.statis .dep p{
+  color: wheat;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.383);
+  font-size: 18px;
+}
+.statis .dep p span{
+  color: wheat;
+  font-weight: bolder;
+  font-family: 'Poppins';
+}
+
+
